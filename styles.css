@@ -281,24 +281,13 @@ section[id] { scroll-margin-top: var(--nav-height); }
   flex-shrink: 0;
 }
 
-/* === PLACEHOLDER DIVS === */
-.hero-image-placeholder,
-.brand-story-image-placeholder,
-.location-map-placeholder,
-.founder-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--color-neutral-dark);
-  border: 2px dashed var(--color-neutral-mid);
-}
-
-.placeholder-label {
-  font-size: 0.8125rem;
-  font-weight: 600;
-  color: var(--color-text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+/* === IMAGE STYLES === */
+.location-map-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
 }
 
 /* === SECTION HEADER === */
@@ -687,12 +676,6 @@ section[id] { scroll-margin-top: var(--nav-height); }
   box-shadow: var(--shadow-md);
 }
 
-.location-map-placeholder {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  border-radius: 0;
-  border: none;
-}
 
 .location-info { padding: 28px; }
 .location-info h3 { margin-bottom: 6px; }
