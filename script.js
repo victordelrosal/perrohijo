@@ -1,4 +1,4 @@
-// PerroHijo Landing Page - Minimal JS
+// Perrhijos Landing Page - Minimal JS
 // Progressive enhancement only. Core content works without JS.
 
 (function () {
